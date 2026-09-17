@@ -11,7 +11,7 @@ def generate_response(message):
         max_tokens = 1024
     )
 
-    return response.choice[0].message.content
+    return response.choices[0].message.content
 
 
 
